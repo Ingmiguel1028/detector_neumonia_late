@@ -8,6 +8,7 @@ Requerimientos necesarios para el funcionamiento del archivo:
 -primero ejecutar docker
 -posteriormente acceder al simbolo del sistema (CMD) y seguir las siguientes instrucciones:
 - git clone https://github.com/Ingmiguel1028/detector_neumonia_late.git
+- cd detector_neumonia_late
 - docker build -t python:latest .
 - docker run -it --rm -e DISPLAY=host.docker.internal:0 --net host python
 ----------------------------------------------------------------------------------
